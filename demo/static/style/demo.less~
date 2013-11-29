@@ -1,0 +1,69 @@
+body {
+    width:100%;
+    font-size:12px;
+    }
+
+.wrap {
+   width:90%;
+   margin:0 auto;
+   margin-top:55px;
+   position:relative;
+   top:0;
+   left:0;
+      .playerWrap { 
+          margin:0 auto;
+          max-width:60%;
+          position:relative;
+          top:0;
+          right:0;
+          &:hover {                  
+               } 
+ 
+              .player {              
+                  background-color:#000;                       
+                  }
+              
+              .playerButton {
+                  position:absolute;
+                  top:0;
+                  width:72px;
+                  padding:32px 0 0 8px;
+                  color:#fff;
+                  font-size:18px;
+                  font-family:"黑体";
+                  text-align:center;
+                  background-color:rgba(0,0,0,0.8);
+                  
+                      li {
+                          max-width:100%;
+                          margin-bottom:32px;
+                          position:relative;
+                          left:0;
+                          top:0;                          
+                         } 
+                  }
+              .right {
+                   right:-80px;
+                   
+                   }
+              .left {
+                   left:-80px;
+                   } 
+              
+          }
+       .playList {
+                  
+                   margin:12px auto;
+                   width:576px;
+                 
+                       tr td{
+                           display:block;
+                           float:left;
+                           width:120px;
+                           height:120px;
+                           margin:12px;
+                           background-color:#ccc;
+                           } 
+                    }   
+           
+   }

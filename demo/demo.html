@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link rel="stylesheet" href="static/style/reset.css">
+    <link rel="stylesheet/less"type="text/css" href="static/style/demo.less" >
+    <script src="static/js/less.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="//releases.flowplayer.org/5.4.4/skin/minimalist.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+   <!-- Flowplayer-->
+   <script src="//releases.flowplayer.org/5.4.4/flowplayer.min.js"></script>
+
+  </head>
+  <body>
+    <div class="wrap">
+       <div class="playerWrap">
+       <div class="player">
+          <video>
+              <source type="video/webm"
+                      src="http://stream.flowplayer.org/functional/624x260.webm">
+              <source type="video/mp4"
+                      src="http://stream.flowplayer.org/functional/624x260.mp4">
+              <source type="video/ogg"
+                      src="http://stream.flowplayer.org/functional/624x260.ogv">
+              <source type="video/flash"
+                      src="mp4:functional/624x260.mp4">
+           </video>
+      </div>
+      <ul class="playerButton left">
+          <li class="prev">上一个</li>
+          <li class="play">播放</li>
+          <li class="pause">暂停</li>
+          <li class="next">下一个</li>
+      </ul>
+      <ul class="playerButton right">
+          <li class="resume">重播</li>
+          <li class="mute">静音</li>
+          <li class="stop">停止</li>
+          <li class="screen">屏幕</li>
+      </ul>
+      </div>
+      <table class="playList">
+          <tr>
+          <td></td><td></td><td></td><td></td>
+          </tr>   
+      </table>
+     
+      
+    </div>
+    <script type="text/javascript" src="static/js/demo.js"></script>
+  </body>
+  
+</html>
